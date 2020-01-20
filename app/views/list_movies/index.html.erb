@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Hurray! Recent Movies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th align='right' colspan="2"> <%= render partial: 'form' %> </th>
+    </tr>
+  </thead>
+  <%= list_all_movies(@list_movies)%>
+</table>
+
+<br>
